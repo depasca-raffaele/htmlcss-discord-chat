@@ -119,10 +119,23 @@ ul{
 }
 
 /* FOOTER */
-
+.footer{
+    height: 80px;
+}
 .navbar{
     background-color: rgba(45, 45, 53);
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 0 10px ;
     align-items: center;
     text-align: center;
+    height: 100%;
+}
+.navbar .nav-tag{
+    font-size: 10px;
+}
+.navbar i{
+    font-size: 30px;
+}
+.navbar li:last-child img{
+    width: 30px;
 }
