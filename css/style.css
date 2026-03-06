@@ -47,13 +47,11 @@ ul{
 
 .sidebar{
     padding: 10px;
-    flex-grow: 1;
-    //row-gap: 10px;
+    margin-top: 10px;
 }
 .sidebar-links{
     flex-direction: column;
-    row-gap: 10px;
-    
+    row-gap: 10px;  
 }
 
 /* CORE */
@@ -109,6 +107,7 @@ ul{
 }
 .chat-tab{
     column-gap: 10px;
+    align-items: center;
 }
 .profile-icon{
     width: 35px;
@@ -117,7 +116,17 @@ ul{
     font-weight: 300;
     font-size: 11px;
 }
-
+.chat-info{
+    opacity: 0.5;
+    flex: 1;
+}
+.chat-tab:hover, .chat-info:hover{
+    border-radius: 15px;
+    background-color: rgba(45, 45, 53);
+    width: 100%;
+    padding: 10px 10px;
+    opacity: 1;
+}
 /* FOOTER */
 .footer{
     height: 80px;
