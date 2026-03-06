@@ -4,10 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Discord chat</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -17,7 +24,7 @@
     <div class="macro-container d-flex">
         <main class="core-wrapper d-flex">
             <nav class="sidebar">
-                <ul>
+                <ul class="sidebar-links d-flex">
                     <li>
                         <a href="" class="channel-link">
                             <img src="./img/logo.webp" alt="" class="channel-icon">
@@ -56,12 +63,14 @@
                 </ul>
             </nav>
             <div class="core">
-                <header class="header">
+                <header class="header d-flex">
                     <h2 class="section-title">Messaggi</h2>
-                    <button class="search"><i class="bi bi-search"></i></button>
-                    <button class="add-friends"><i class="bi bi-person-fill-add"></i>Aggiungi amici</button>
+                    <div class="header-btns d-flex">
+                        <button class="search"><i class="bi bi-search"></i></button>
+                        <button class="add-friends"><i class="bi bi-person-fill-add"></i> Aggiungi amici</button>
+                    </div>
                 </header>
-                <div class="chat-list">
+                <div class="chat-list d-flex">
                     <div class="chat-tab d-flex">
                         <img src="./img/profile1.webp" alt="" class="profile-icon">
                         <div class="chat-info">
