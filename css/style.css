@@ -7,3 +7,51 @@ body{
     width: 512px;
     margin: 0 auto;
 }
+/* debug */
+img{
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+/* UTILY CLASSES */
+
+.d-flex{
+    display: flex;
+}
+
+/* STYLE */
+
+.macro-container{
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.core-wrapper{
+    
+    width: 100%;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+ul{
+    list-style-type: none;
+}
+.core{
+    background-color: rgb(27, 28, 33);
+    //height: 100&;
+    width: 100%;
+    flex-grow: 2;
+}
+.sidebar{
+    padding: 10px;
+    flex-grow: 1;
+}
+.chat-list{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.navbar{
+    background-color: rgba(45, 45, 53);
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
